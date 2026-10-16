@@ -1,5 +1,5 @@
 class Jumpshell < Formula
-  desc "JumpShell is a cross-platform .NET 10 console app for managing and opening saved remote connections. "
+  desc "JumpShell is a cross-platform .NET 10 console app for managing and opening saved remote connections."
   homepage "https://github.com/ollie-galbraith/jumpshell"
   version "1.2.5"
   
