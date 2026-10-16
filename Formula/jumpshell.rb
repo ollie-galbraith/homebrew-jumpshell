@@ -1,15 +1,15 @@
 class Jumpshell < Formula
   desc "JumpShell is a cross-platform .NET 10 console app for managing and opening saved remote connections."
   homepage "https://github.com/ollie-galbraith/jumpshell"
-  version "1.2.5"
+  version "1.2.6"
   
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ollie-galbraith/jumpshell/releases/download/v#{version}/jumpshell-osx-arm64"
-      sha256 "c8e751b054333c14692372d9ed52a8e8a47de5d086eb73231c775a2148fcac46"
+      sha256 "298102e2d5b667c0c063d090945f379934bc2fa0a6a0d7ea3541380afd4f2ad4"
     else
       url "https://github.com/ollie-galbraith/jumpshell/releases/download/v#{version}/jumpshell-osx-x64"
-      sha256 "d5e7a185d16a04e525dba01efba15d9db65911bb48b9685b762aa363067f4425"
+      sha256 "da1bc308c866a44ce6f6c4cab180e55a39ee2df9ebf9ace4fedc2142c043e10b"
     end
   end
 
